@@ -40,37 +40,37 @@
 #endregion
 
 #region Sorting
-1 2 3 4
-int[] arr = new int[]{ 5,4,4,3,2,1};
+//1 2 3 4
+int[] arr = new int[]{ -5,-4,4,3,2,1};
 
-int left = 0;
-int right = left + 1;
-while (arr[left] > arr[right])
-{
-	var temp = arr[left];
-	arr[left] = arr[right];
-	arr[right] = temp;
-	right++;
-	if (arr[right] < )
-	{
-
-	}
-}
-
-//for (int i = 0; i < arr.Length; i++)
+//int left = 0;
+//int right = left + 1;
+//while (arr[left] > arr[right])
 //{
-//	for (int j = i + 1; j < arr.Length; j++)
+//	var temp = arr[left];
+//	arr[left] = arr[right];
+//	arr[right] = temp;
+//	right++;
+//	if (arr[right] < )
 //	{
-//		if (arr[i] > arr[j])
-//		{
-//			Console.WriteLine("before: " + arr[i] + " " + arr[j]);
-//			var temp = arr[i];
-//			arr[i] = arr[j];
-//			arr[j] = temp;
-//            Console.WriteLine("after: " + arr[i] + " " + arr[j]);
-//        }
+
 //	}
 //}
+
+for (int i = 0; i < arr.Length; i++)
+{
+	for (int j = i + 1; j < arr.Length; j++)
+	{
+		if (arr[i] > arr[j])
+		{
+			Console.WriteLine("before: " + arr[i] + " " + arr[j]);
+			var temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = temp;
+			Console.WriteLine("after: " + arr[i] + " " + arr[j]);
+		}
+	}
+}
 var test = arr;
 Console.WriteLine();
 #endregion

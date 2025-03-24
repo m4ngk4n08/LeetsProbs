@@ -83,6 +83,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1456. Maximum Numbers of Vo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1004. Max Consecutive Ones III", "1004. Max Consecutive Ones III\1004. Max Consecutive Ones III.csproj", "{8B69E496-0E28-462D-9F90-EBB3A4B2F51E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1493. Longest Subarray of 1's after deleting One element(mid)", "1493. Longest Subarray of 1's after deleting One element(mid)\1493. Longest Subarray of 1's after deleting One element(mid).csproj", "{EC2B551E-CFEE-4F3E-8D34-4914CB4F6FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "189. Rotate Array(mid)", "189. Rotate Array(mid)\189. Rotate Array(mid).csproj", "{033238F4-1882-4B2F-8426-5FA5EEC3DAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1657. Determine if Two Strings are Close(Mid)", "1657. Determine if Two Strings are Close(Mid)\1657. Determine if Two Strings are Close(Mid).csproj", "{95D4C52F-569B-49CF-8DA6-16606D3D6568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2352. Equal Row and Column Pairs(Mid)", "2352. Equal Row and Column Pairs(Mid)\2352. Equal Row and Column Pairs(Mid).csproj", "{81973F83-7CDB-49F3-99B0-6B720D68CC1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +257,22 @@ Global
 		{8B69E496-0E28-462D-9F90-EBB3A4B2F51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B69E496-0E28-462D-9F90-EBB3A4B2F51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B69E496-0E28-462D-9F90-EBB3A4B2F51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2B551E-CFEE-4F3E-8D34-4914CB4F6FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2B551E-CFEE-4F3E-8D34-4914CB4F6FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2B551E-CFEE-4F3E-8D34-4914CB4F6FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2B551E-CFEE-4F3E-8D34-4914CB4F6FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033238F4-1882-4B2F-8426-5FA5EEC3DAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033238F4-1882-4B2F-8426-5FA5EEC3DAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033238F4-1882-4B2F-8426-5FA5EEC3DAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033238F4-1882-4B2F-8426-5FA5EEC3DAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D4C52F-569B-49CF-8DA6-16606D3D6568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D4C52F-569B-49CF-8DA6-16606D3D6568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D4C52F-569B-49CF-8DA6-16606D3D6568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D4C52F-569B-49CF-8DA6-16606D3D6568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81973F83-7CDB-49F3-99B0-6B720D68CC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81973F83-7CDB-49F3-99B0-6B720D68CC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81973F83-7CDB-49F3-99B0-6B720D68CC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81973F83-7CDB-49F3-99B0-6B720D68CC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
